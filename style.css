@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    /* font-weight: 300; */
+    size: 16px;
+    line-height: 24px;
+}
+.employee-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.employee-table th, .employee-table td {
+    padding: 10px;
+    text-align: left;
+}
+.employee-table thead tr {
+    background-color: #F5F5F5;
+    width: 80px;
+    height: 68px;
+}
+.employee-cell {
+    display: flex;
+    align-items: center;
+}
+.employee-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.tag {
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.tag.full-time {
+    background-color: #534FEB1A;
+    color: #534FEB;
+    border-radius: 8px;
+    border: 0.5px solid #534FEB;
+}
+.tag.part-time {
+    background-color: #1C6CE51A;
+    color: #1C6CE5;
+    border-radius: 8px;
+    border: 0.5px solid #1C6CE5;
+}
+.tag.present {
+    background-color: #e8ffe8;
+    color: #008000;
+    border-radius: 8px;
+    border: 0.5px solid #008000;
+  }
+.tag.contract {
+    background-color: #fffcce;
+    color: #ffee00;
+    border-radius: 8px;
+    border: 0.5px solid #ffee00;
+  }
+.tag.absent {
+    background-color: #ffe8e8;
+    color: #D62525;
+    border-radius: 8px;
+    border: 0.5px solid #D62525;
+  }
+.tag.late  {
+    background-color: #FBF5E8;
+    color: #D39C1D;
+    border-radius: 8px;
+    border: 0.5px solid #D39C1D;
+}
+.tag.on-leave {
+    background-color: rgb(255, 218, 205);
+    color: orangered;
+    border-radius: 8px;
+    border: 0.5px solid orangered;
+}
